@@ -1,0 +1,11 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Output folder (Optional: include if you want the grader to start with a blank slate)
+output/
