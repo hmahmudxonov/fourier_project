@@ -58,7 +58,7 @@ pip install -r requirements.txt
 in an editor and delete the version numbers of the libraries,
 e.g. "==1.26.4" from "numpy==1.26.4". Then run
 ```powershell
-pip install -r rqeuirements.txt
+pip install -r requirements.txt
 ```
 again.
 
