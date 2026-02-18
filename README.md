@@ -114,7 +114,7 @@ function to remove the peaks by cascading the filter.
 One of the problems during removing the beep was  deciding how much of the peaks
 to remove. Removing a wide band meant some of the dog barking was lost too,
 but a too narrow of a band left some of the beep.
----
+
 
 ### Problem 2: Find the hidden message
 The signal contained a very loud sound as a combination frequencies at
@@ -130,7 +130,7 @@ was inaudible in the original audio.
 filtered data to audio after normalising it, for this filtered message, I 
 had to convert the raw data so as to make it audible. So be careful not
 to listen to it in earphones or at maximum volume on speakers.***
----
+
 
 ### Problem 3: Generate new images from the provided ones
 Two images provided were radially growing spirals and vertical fringes.
