@@ -27,8 +27,10 @@ The dsp\ directory contains essential modules that make the core of digital proc
 - assignments: The assignments\ directory contains run functions,e.g. p1.py, that handle problem related logic
 - data: The data\ directory contains input/source files used in the process of solving problems 1 through 4
 - requirements.txt - this file contains required libraries to run the program which need to be present on user's device
+---
 - ## main.py - is the only script the user/grader needs to run to produce the output files for all available questions
-*NOTE: files with "temp" in their names are used as scratch scripts, they are not guaranteed to generate the desired results
+***NOTE: files with "temp" in their names are used as scratch scripts, they are not guaranteed to generate the desired results.
+Additionally, you may ignore all other files.**
 
 -------
 ## Installation & Running/Set-up
@@ -64,7 +66,7 @@ again.
 As mentioned above, you only need to run "main.py" to generate all the output 
 files. Run the following command in terminal
 ```powershell
-pythhon main.py
+python main.py
 ```
 ### Usage notes
 When you run "main.py", you will see a menu to either select a specific problem,
