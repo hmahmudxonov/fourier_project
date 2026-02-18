@@ -48,8 +48,8 @@ git clone [https://github.com/hmahmudxonov/fourier_project.git](https://github.c
 cd fourier_project
 
 # create and activate the environment
-conda create -n fourier_stable python=3.11 -y
-conda activate fourier_stable
+conda create -n fourier_env python=3.11 -y
+conda activate fourier_env
 
 # install required packages
 pip install -r requirements.txt
@@ -119,8 +119,9 @@ but a too narrow of a band left some of the beep.
 The signal contained a very loud sound as a combination frequencies at
 53 Hz, 1656 Hz, 2245 Hz, and 3025 Hz. The amplitude of these frequencies
 was on the order of 10^7. Removing them in the same manner as in Problem 1,
-reavealed the hidden 'message', which was a song/audio saying Hallelujah.
-The audio of the message will be saved at '.\fourier_project\output\problem02\x_filt.wav'
+revealed the hidden 'message', which was a song/audio saying Hallelujah.
+The audio of the message will be saved at 
+'.\fourier_project\output\problem02\x_filt.wav'
 The amplitude of the filtered signal was on the order of 10^4, which is
 significantly less than the frequencies that concealed it, so the message
 was inaudible in the original audio. ***Additionally, while I was converting
