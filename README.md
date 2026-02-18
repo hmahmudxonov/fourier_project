@@ -44,7 +44,7 @@ Clone the repository and create a fresh environment to avoid dependency conflict
 
 ```powershell
 # clone the project
-git clone [https://github.com/hmahmudxonov/fourier_project.git](https://github.com/YOUR_USERNAME/fourier_project.git)
+git clone https://github.com/hmahmudxonov/fourier_project.git
 cd fourier_project
 
 # create and activate the environment
