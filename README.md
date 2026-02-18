@@ -115,6 +115,7 @@ One of the problems during removing the beep was  deciding how much of the peaks
 to remove. Removing a wide band meant some of the dog barking was lost too,
 but a too narrow of a band left some of the beep.
 ---
+
 ### Problem 2: Find the hidden message
 The signal contained a very loud sound as a combination frequencies at
 53 Hz, 1656 Hz, 2245 Hz, and 3025 Hz. The amplitude of these frequencies
@@ -124,7 +125,8 @@ The audio of the message will be saved at
 '.\fourier_project\output\problem02\x_filt.wav'
 The amplitude of the filtered signal was on the order of 10^4, which is
 significantly less than the frequencies that concealed it, so the message
-was inaudible in the original audio. ***Additionally, while I was converting
+was inaudible in the original audio.
+***Additionally, while I was converting
 filtered data to audio after normalising it, for this filtered message, I 
 had to convert the raw data so as to make it audible. So be careful not
 to listen to it in earphones or at maximum volume on speakers.***
