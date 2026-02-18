@@ -52,6 +52,8 @@ def run():
     save_path2 = out_dir / 'p1_spect_original_vs_filtered_ch1.png'
     fig1.savefig(str(save_path2))
 #    plt.show()
+    plt.close(fig1)
+
 
     Ny = len(Y)//2
     fig2, ax2 = plt.subplots()
@@ -65,3 +67,4 @@ def run():
     save_path3 = out_dir / 'p1_spect_filtered_ch2.png'
     fig2.savefig(str(save_path3))
 #    plt.show()
+    plt.close(fig2)

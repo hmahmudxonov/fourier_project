@@ -1,0 +1,95 @@
+fourier_project/
+├── __pycache__/
+│   └── config.cpython-311.pyc
+├── assignments/
+│   ├── __pycache__/
+│   │   └── __init__.cpython-311.pyc
+│   ├── problem01/
+│   │   ├── __pycache__/
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   └── p1.cpython-311.pyc
+│   │   ├── __init__.py
+│   │   ├── p1.py
+│   │   ├── prob1_remove_beeper.py
+│   │   └── temp_p1.py
+│   ├── problem02/
+│   │   ├── __pycache__/
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   └── p2.cpython-311.pyc
+│   │   ├── __init__.py
+│   │   ├── p2.py
+│   │   ├── p2_audio.wav
+│   │   ├── p2_x_amp_env.wav
+│   │   ├── p2_x_amped.wav
+│   │   ├── p2_x_env_smooth.wav
+│   │   ├── p2_x_filt.wav
+│   │   ├── prob2_find_message.py
+│   │   └── temp_p2.py
+│   ├── problem03/
+│   │   ├── __pycache__/
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   └── p3.cpython-311.pyc
+│   │   ├── __init__.py
+│   │   ├── p3.py
+│   │   └── temp_p3.py
+│   ├── problem04/
+│   │   ├── __pycache__/
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   └── p4.cpython-311.pyc
+│   │   ├── __init__.py
+│   │   ├── p4.py
+│   │   └── temp_p4.py
+│   ├── problem05/
+│   │   ├── __init__.py
+│   │   └── temp_p5.py
+│   └── __init__.py
+├── data/
+│   ├── audio/
+│   ├── images/
+│   │   ├── prob03_im1.png
+│   │   └── prob03_im2.png
+│   ├── prob01_data.xlsx
+│   ├── prob02_data.wav
+│   ├── prob02_data.xlsx
+│   ├── prob03_im1.png
+│   ├── prob03_im2.png
+│   ├── prob04_im01.jpg
+│   ├── prob04_im02.jpg
+│   ├── prob05_data.xlsx
+│   ├── prob3_im1.xlsx
+│   └── prob3_im2.xlsx
+├── dsp/
+│   ├── __pycache__/
+│   │   ├── __init__.cpython-311.pyc
+│   │   ├── audio.cpython-311.pyc
+│   │   ├── excel.cpython-311.pyc
+│   │   ├── filters.cpython-311.pyc
+│   │   ├── image.cpython-311.pyc
+│   │   └── transforms.cpython-311.pyc
+│   ├── __init__.py
+│   ├── audio.py
+│   ├── excel.py
+│   ├── filters.py
+│   ├── image.py
+│   └── transforms.py
+├── output/
+│   ├── problem01/
+│   │   ├── beep_free_dog_bark.wav
+│   │   ├── p1_spect_filtered_ch2.png
+│   │   └── p1_spect_original_vs_filtered_ch1.png
+│   ├── problem02/
+│   │   ├── freq_spectrum_flt.png
+│   │   ├── freq_spectrum_org.png
+│   │   └── x_filt.wav
+│   ├── problem03/
+│   │   ├── mag1_ph2.png
+│   │   └── mag2_ph1.png
+│   ├── problemo04/
+│       ├── p4_hybrid_gray.png
+│       └── p4_hybrid_rgb.png
+├── README.md
+├── config.py
+├── main.py
+├── requirements.txt
+├── submission.zip
+└── temp.py

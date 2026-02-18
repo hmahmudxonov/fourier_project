@@ -29,6 +29,7 @@ def run():
 
     print(f'Frequencies to be removed: {beep[:4]}')
 
+    plt.figure()
     plt.plot(freq[:len(X)//2], np.abs(X[:len(X)//2]))
     plt.title('Frequency spectrum: original')
     plt.xlabel('Frequency (Hz)')
@@ -36,7 +37,9 @@ def run():
     save_path = output_dir / 'freq_spectrum_org.png'
     plt.savefig(save_path)
 #    plt.show()
+    plt.close()
 
+    plt.figure()
     plt.plot(freq_filt[:len(X)//2], np.abs(X_filt[:len(X)//2]))
     plt.title('Frequency spectrum: filtered')
     plt.xlabel('Frequency (Hz)')
@@ -44,5 +47,6 @@ def run():
     save_path = output_dir / 'freq_spectrum_flt.png'
     plt.savefig(save_path)
 #    plt.show()
+    plt.close()
 
     print('The hidden message is Hallelujah')

@@ -25,6 +25,7 @@ def run():
     x1 = np.fft.ifft2(X1)
     x2 = np.fft.ifft2(X2)
 
+    plt.figure()
     plt.imshow(x1.real, cmap='jet', origin='lower')
     plt.title('Problem #3: Magnitude_1 + Phase_2')
     plt.clim(-0.5, 0.7)
@@ -32,14 +33,18 @@ def run():
     save_path1 = out_dir / 'mag1_ph2.png'
     plt.savefig(str(save_path1))
 #    plt.show()
+    plt.close()
 
+    plt.figure()
     plt.imshow(data1, cmap='jet', origin='lower')
     plt.title('Problem #3/Image_1')
     plt.colorbar()
     save_path2 = DATA_DIR / 'prob03_im1.png'
     plt.savefig(str(save_path2))
 #    plt.show()
+    plt.close()
 
+    plt.figure()
     plt.imshow(x2.real, cmap='jet', origin='lower')
     plt.title('Problem #3: Magnitude_2 + Phase_1')
     plt.clim(-0.3, 0.5)
@@ -47,10 +52,13 @@ def run():
     save_path3 = out_dir / 'mag2_ph1.png'
     plt.savefig(str(save_path3))
 #    plt.show()
+    plt.close()
 
+    plt.figure()
     plt.imshow(data2, cmap='jet', origin='lower')
     plt.title('Problem #3/Image_2')
     plt.colorbar()
     save_path4 = DATA_DIR / 'prob03_im2.png'
     plt.savefig(str(save_path4))
 #    plt.show()
+    plt.close()

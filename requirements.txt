@@ -1,6 +1,7 @@
-numpy
-pandas
-opencv-python
-scipy
-matplotlib
-soundfile
+numpy==1.26.4
+scipy==1.17.0
+matplotlib==3.10.8
+opencv-python==4.13.0.92
+pandas==3.0.1
+soundfile==0.13.1
+openpyxl
